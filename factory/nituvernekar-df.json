@@ -1,0 +1,9 @@
+{
+	"name": "nituvernekar-df",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7947aa52-042c-4226-a817-a245910f296f",
+		"tenantId": "595e287a-a1fc-40c2-bd40-00ac794e32f4"
+	}
+}
