@@ -1,0 +1,9 @@
+{
+	"name": "kpdmsadfcopyfile",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd981ba0-775a-4bee-8de5-c8a1992eae7d",
+		"tenantId": "595e287a-a1fc-40c2-bd40-00ac794e32f4"
+	}
+}
