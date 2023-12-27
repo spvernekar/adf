@@ -11,17 +11,25 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ls_blobstorage'"
 		},
-		"ls_destistorage_properties_typeProperties_connectionString_secretName": {
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"type": "string",
-			"defaultValue": "destkeyvault"
+			"defaultValue": "https://kpdmskeyvault.vault.azure.net/"
 		},
 		"AzureKeyVaultdest_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://kpdmskeyvault.vault.azure.net/"
 		},
-		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+		"AzureSqlDatabase1_properties_typeProperties_connectionString_secretName": {
+			"type": "string",
+			"defaultValue": "sqlconn1"
+		},
+		"SqlLinkedService_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://kpdmskeyvault.vault.azure.net/"
+		},
+		"ls_destistorage_properties_typeProperties_connectionString_secretName": {
+			"type": "string",
+			"defaultValue": "destkeyvault"
 		},
 		"containerUri": {
 			"type": "string",
@@ -53,11 +61,17 @@
 					"ls_blobstorage_connectionString": {
 						"value": "[parameters('ls_blobstorage_connectionString')]"
 					},
+					"AzureKeyVault1_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault1_properties_typeProperties_baseUrl')]"
+					},
 					"AzureKeyVaultdest_properties_typeProperties_baseUrl": {
 						"value": "[parameters('AzureKeyVaultdest_properties_typeProperties_baseUrl')]"
 					},
-					"AzureKeyVault1_properties_typeProperties_baseUrl": {
-						"value": "[parameters('AzureKeyVault1_properties_typeProperties_baseUrl')]"
+					"SqlLinkedService_properties_typeProperties_baseUrl": {
+						"value": "[parameters('SqlLinkedService_properties_typeProperties_baseUrl')]"
+					},
+					"AzureSqlDatabase1_properties_typeProperties_connectionString_secretName": {
+						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_connectionString_secretName')]"
 					},
 					"ls_destistorage_properties_typeProperties_connectionString_secretName": {
 						"value": "[parameters('ls_destistorage_properties_typeProperties_connectionString_secretName')]"

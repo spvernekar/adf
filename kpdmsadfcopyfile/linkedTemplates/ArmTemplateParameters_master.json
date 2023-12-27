@@ -8,14 +8,20 @@
 		"ls_blobstorage_connectionString": {
 			"value": ""
 		},
-		"ls_destistorage_properties_typeProperties_connectionString_secretName": {
-			"value": "destkeyvault"
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kpdmskeyvault.vault.azure.net/"
 		},
 		"AzureKeyVaultdest_properties_typeProperties_baseUrl": {
 			"value": "https://kpdmskeyvault.vault.azure.net/"
 		},
-		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+		"AzureSqlDatabase1_properties_typeProperties_connectionString_secretName": {
+			"value": "sqlconn1"
+		},
+		"SqlLinkedService_properties_typeProperties_baseUrl": {
 			"value": "https://kpdmskeyvault.vault.azure.net/"
+		},
+		"ls_destistorage_properties_typeProperties_connectionString_secretName": {
+			"value": "destkeyvault"
 		},
 		"containerUri": {
 			"value": ""
